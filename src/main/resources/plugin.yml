@@ -1,0 +1,6 @@
+name: BeeCommunity
+version: '${project.version}'
+main: com.beenugget.beecommunity.BeeCommunity
+api-version: 1.19
+authors: [ Tropaeo ]
+description: Implements different fun social interactions and mechanics
