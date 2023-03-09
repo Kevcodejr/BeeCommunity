@@ -6,7 +6,8 @@ public final class BeeCommunity extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
 
     }
 
