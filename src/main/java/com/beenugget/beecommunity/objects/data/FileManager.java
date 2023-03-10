@@ -40,8 +40,10 @@ public class FileManager {
             return configurations;
         }
         for(File file : files){
-            FileConfiguration config = getFileConfiguration(file.getName());
-            configurations.add(config);
+            if(!file.isDirectory()){
+                FileConfiguration config = getFileConfiguration(file.getName());
+                configurations.add(config);
+            }
         }
         return configurations;
     }
