@@ -4,3 +4,11 @@ main: com.beenugget.beecommunity.BeeCommunity
 api-version: 1.19
 authors: [ Tropaeo ]
 description: Implements different fun social interactions and mechanics
+commands:
+  achievement:
+    usage: /<command>
+    description: Check all the achievements
+    aliases:
+      - achievement
+      - achievements
+      - ach
